@@ -2,7 +2,7 @@
 <p align="center">
   Functionality for choosing salary type
   <br>
-  <a href=""><strong>Demo Page</strong></a>
+  <a href="https://rustvk.github.io/Salary-Type-Selector/index.html"><strong>Demo Page</strong></a>
 </p>
 
 React, Redux, Redux-Form, Typescript, SCSS
