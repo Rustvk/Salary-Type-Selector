@@ -1,0 +1,29 @@
+$hintColor: #5e6cab;
+.hintContainer {
+  position: relative;
+}
+.hint {
+  background: $hintColor;
+  color: white;
+  padding: 25px 20px;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 250px;
+  cursor: default;
+  transition: all 0.2s;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 1;
+  &:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 20px;
+    border-color: transparent transparent transparent $hintColor;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    content: ''
+  }
+}
